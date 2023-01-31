@@ -4,6 +4,8 @@
 function devolverString(string) {
    // Debe retornar un string.
    // Tu código:
+   if (devolverString)
+   return string ;
 }
 
 // ⛔️ "X" e "Y" son números.
@@ -11,26 +13,49 @@ function devolverString(string) {
 function suma(x, y) {
    // Retorna el resultado de su suma.
    // Tu código:
+   
+   var resultado = x + y
+
+   return resultado
+
+
 }
+
 
 function resta(x, y) {
    // Retorna el resultado de la resta.
    // Tu código:
+
+   var resultado = x - y 
+
+   return resultado
+
 }
 
 function divide(x, y) {
    // Retorna el resultado de su división.
    // Tu código:
+
+   var resultado = x / y 
+
+   return resultado
 }
 
 function multiplica(x, y) {
    // Retorna el resultado de su multiplicación.
    // Tu código:
+
+   var resultado = x * y 
+
+   return resultado
 }
 
 function obtenerResto(x, y) {
    // Obten el resto de la división de "x" entre "y".
    // Tu código:
+   var resto = x % y 
+
+   return resto 
 }
 
 /*⚠️ NO MODIFIQUES NADA DEBAJO DE ESTO ⚠️*/
